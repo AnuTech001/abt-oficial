@@ -1,0 +1,11 @@
+@media (min-width: 375px) and (max-width: 430px) {
+  header {
+    width: auto;
+    padding: 8px;
+  }
+  section {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+  }
+}
