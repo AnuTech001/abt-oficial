@@ -12,27 +12,66 @@ body {
 main {
   flex: 1;
   margin-bottom: 50px;
+  padding-bottom: 10;
 }
 
 header {
   background: linear-gradient(to bottom, #000000, #222222);
-  color: #aaaaaa;
+  color: #ffffff;
   padding: 10px;
   margin: 1px auto;
-  border: 1px solid #aaaaaa;
   width: auto;
 }
 
+content {
+  position: relative;
+  padding: 100%;
+}
+
 footer {
-  color: red;
-  padding: 10px;
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
-  margin: auto;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  background: rgba(0, 0, 0, 0.6); /* preto com 60% opacidade */
+  backdrop-filter: none;
 }
 
+.social-icon {
+  color: #ffffff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.github:hover i {
+  color: #6e5494;
+}
+
+.whatsapp:hover i {
+  color: #25d366;
+}
+
+.instagram:hover i {
+  background: linear-gradient(45deg, 
+  #f09433, 
+  #dc2743, 
+  #cc2366, 
+  #bc1888);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.email:hover i {
+  color: #d44638;
+}
+
+.linkedin:hover i {
+  color: #0077b5;
+}
 section {
   color: #00ff00;
   font-family: "Orbitron", sans-serif;
