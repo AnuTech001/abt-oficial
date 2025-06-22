@@ -1,0 +1,16 @@
+content {
+  position: relative;
+  padding: 100%;
+}
+
+section {
+  color: #00ff00;
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+  width: auto;
+  margin: auto;
+}
+
+h2 {
+  color: #00ffff;
+}
