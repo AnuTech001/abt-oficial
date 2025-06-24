@@ -6,6 +6,35 @@ footer {
   margin: auto;
 }
 
+.logo_apk, .imagem_temporaria {
+  margin-top: 20px;
+  height: 150px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.projeto {
+  flex: 1 1 300px;
+  max-width: 500px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 2px solid white;
+  border-radius: 100px;
+  transition: border-radius 0.3s ease, border-color 0.3s ease;
+}
+.projeto:hover {
+  border-radius: 50px;
+  border-color: #00ffff;
+  background-color: rgba(0, 255, 255, 0.1);
+}
+
 h3 {
   color: #00ffff;
 }

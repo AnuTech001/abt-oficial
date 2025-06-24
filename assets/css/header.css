@@ -5,6 +5,14 @@ header {
   margin: 1px auto;
   width: auto;
 }
+.logo-titulo {
+  align-items: center;
+  gap: 16px;
+}
+
+.logo {
+  height: 150px;
+}
 
 .social-icon {
   color: #ffffff;
