@@ -3,7 +3,8 @@ header {
   color: #ffffff;
   padding: 10px;
   margin: 1px auto;
-  width: auto;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .logo-titulo {
@@ -43,7 +44,7 @@ header {
   color: #0077b5;
 }
 
-.opecoes {
+/* .opecoes {
   display: flex;
   justify-content: center;
   gap: 80px;
@@ -59,3 +60,4 @@ header {
 .opecoes p:hover {
   color: #00ffff;
 }
+ */
