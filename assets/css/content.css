@@ -1,14 +1,16 @@
-content {
-  position: relative;
-  padding: 100%;
-}
-
 section {
   color: #00ff00;
   font-family: "Orbitron", sans-serif;
   text-align: center;
   width: auto;
   margin: auto;
+}
+
+.eu_mesmo {
+  height: 200px;
+  margin-top: 20px;
+  border: 2px solid white;
+  border-radius: 100px;
 }
 
 h2 {
