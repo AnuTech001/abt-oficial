@@ -32,26 +32,11 @@ footer {
   transition: border-radius 0.5s ease, border-color 0.5s ease;
 }
 
-.projeto:hover {
-  border-radius: 50px;
-  border-color: #00ffff;
-  background-color: rgba(0, 255, 255, 0.1);
+.versao {
+  background: linear-gradient(to bottom, #222222, #000000);
+  padding: 10px;
 }
 
 h3 {
   color: #00ffff;
-}
-
-.estilo-footer a{
-  color: #00ffff;
-  border: 2px solid white;
-  border-radius: 100px;
-  padding: 20px;
-  transition: all 0.5s ease;
-}
-
-.estilo-footer a:hover {
-  border-radius: 50px;
-  color: white;
-  background-color: rgba(0, 255, 255, 0.1);
 }

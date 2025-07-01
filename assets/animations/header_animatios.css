@@ -1,0 +1,21 @@
+.github:hover i {
+  color: #6e5494;
+}
+
+.whatsapp:hover i {
+  color: #25d366;
+}
+
+.instagram:hover i {
+  background: linear-gradient(45deg, #f09433, #dc2743, #cc2366, #bc1888);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.email:hover i {
+  color: #d44638;
+}
+
+.linkedin:hover i {
+  color: #0077b5;
+}

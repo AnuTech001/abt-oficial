@@ -9,3 +9,18 @@ body {
   padding: 0;
   /* cursor: crosshair; */
 }
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+  border: 2px solid white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: white;
+  border: 2px solid white;
+  border-radius: 4px;
+}

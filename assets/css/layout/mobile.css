@@ -14,16 +14,20 @@
     text-align: center;
     width: 90%;
     margin: auto;
-    padding: 20px;
+    padding: 50px;
     font-size: 15px;
   }
 
   h2 {
-    padding: 20px;
+    padding: 35px;
     font-size: 20px;
   }
 
   .container {
     padding: 20px;
+  }
+
+  .versao p {
+    padding: 10px;
   }
 }
