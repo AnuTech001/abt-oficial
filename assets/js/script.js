@@ -11,4 +11,9 @@ document.addEventListener("DOMContentLoaded", function () {
   loadHTML("content", "components/content.html");
   loadHTML("footer", "components/footer.html");
   loadHTML("head_links", "components/includes/head_links.html");
+  loadHTML("sites", "components/sites.html");
+  loadHTML("projetos", "components/projetos.html");
+  loadHTML("computacao_quantica", "components/computacao_quantica.html");
+  loadHTML("manifesto", "components/manifesto.html");
+  loadHTML("rodape", "components/rodape.html");
 });

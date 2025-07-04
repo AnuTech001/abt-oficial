@@ -1,18 +1,21 @@
-.projeto:hover {
+.card-site:hover,
+.card-projeto:hover,
+.card-manifesto:hover {
   border-radius: 50px;
   border-color: #00ffff;
   background-color: rgba(0, 255, 255, 0.1);
 }
 
-.estilo-footer a{
-  color: #00ffff;
-  border: 2px solid white;
-  border-radius: 100px;
-  padding: 20px;
-  transition: all 0.5s ease;
+.card:hover {
+  border-color: #00ff00;
+  background-color: rgba(0, 255, 255, 0.1);
 }
 
-.estilo-footer a:hover {
+.card:hover h1 {
+  color: #00ffff;
+}
+
+.estilo-link a:hover {
   border-radius: 50px;
   color: white;
   background-color: rgba(0, 255, 255, 0.1);
