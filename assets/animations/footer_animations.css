@@ -6,15 +6,6 @@
   background-color: rgba(0, 255, 255, 0.1);
 }
 
-.card:hover {
-  border-color: #00ff00;
-  background-color: rgba(0, 255, 255, 0.1);
-}
-
-.card:hover h1 {
-  color: #00ffff;
-}
-
 .estilo-link a:hover {
   border-radius: 50px;
   color: white;

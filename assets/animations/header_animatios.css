@@ -19,3 +19,8 @@
 .linkedin:hover i {
   color: #0077b5;
 }
+
+.navegacao:hover {
+  color: #00ffff;
+  margin: 0 15px;
+}

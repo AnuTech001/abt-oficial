@@ -11,8 +11,22 @@ header {
   height: 150px;
 }
 
-.social-icon {
+.icon i {
   color: #ffffff;
   margin: 0 10px;
+  transition: all 0.5s ease;
+}
+
+.social-icon.whatsapp,
+.social-icon.github,
+.social-icon.instagram,
+.social-icon.linkedin {
   text-decoration: none;
+}
+
+.navegacao {
+  color: #ffffff;
+  margin-top: 0 10px;
+  text-decoration: none;
+  transition: all 0.5s ease;
 }

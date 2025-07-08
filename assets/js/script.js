@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   loadHTML("header", "components/header.html");
   loadHTML("content", "components/content.html");
-  loadHTML("footer", "components/footer.html");
+  loadHTML("navegacao_rapida", "components/navegacao_rapida.html");
   loadHTML("head_links", "components/includes/head_links.html");
   loadHTML("sites", "components/sites.html");
   loadHTML("projetos", "components/projetos.html");
