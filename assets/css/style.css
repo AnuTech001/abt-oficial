@@ -34,7 +34,7 @@ h1 {
 
 .navegacao_rapida {
   position: fixed;
-  bottom: 43%;
+  bottom: 40%;
   right: 10px;
   z-index: 1000;
 }
