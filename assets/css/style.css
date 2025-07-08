@@ -32,6 +32,29 @@ h1 {
   color: #00ffff;
 }
 
+.navegacao_rapida {
+  position: fixed;
+  bottom: 43%;
+  right: 10px;
+  z-index: 1000;
+}
+
+.nav-rap {
+  border: 2px solid white;
+  border-radius: 10px;
+  opacity: 0.2;
+  transition: all 0.5s ease;
+}
+
+.material-icons.nav {
+  color: #00ffff;
+}
+
+.material-icons {
+  color: white;
+  transition: all 0.5s ease;
+}
+
 ::-webkit-scrollbar {
   width: 8px;
 }

@@ -20,7 +20,17 @@
   color: #0077b5;
 }
 
-.navegacao:hover {
+.material-icons:hover {
   color: #00ffff;
-  margin: 0 15px;
+  margin: 0 10px;
+}
+
+.material-icons.nav:hover {
+  color: white;
+}
+
+.nav-rap:hover {
+  background-color: rgba(0, 255, 255, 0.5);
+  border: 2px solid white;
+  opacity: 10;
 }
