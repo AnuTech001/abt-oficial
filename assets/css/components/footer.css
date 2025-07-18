@@ -1,0 +1,19 @@
+.container-secao {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 2.5rem; /* equivale a 40px */
+  flex-wrap: wrap;
+  margin-top: 1.25rem; /* equivale a 20px */
+  padding: 1.25rem; /* equivale a 20px */
+}
+
+.versao {
+  background: linear-gradient(to bottom, #222222, #000000);
+  padding: 0.625rem; /* equivale a 10px */
+}
+
+.notas-atualizacao {
+  color: #00ff00;
+  text-align: left;
+}

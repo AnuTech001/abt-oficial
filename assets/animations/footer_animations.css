@@ -1,13 +1,12 @@
-.card-site:hover,
-.card-projeto:hover,
-.card-manifesto:hover {
-  border-radius: 50px;
+.cards-universal:hover,
+.card-manifesto:hover,
+.card-content:hover,
+.estilo-link a:hover {
+  border-radius: 3.125rem; /* equivale a 50px */
   border-color: #00ffff;
   background-color: rgba(0, 255, 255, 0.1);
 }
 
 .estilo-link a:hover {
-  border-radius: 50px;
   color: white;
-  background-color: rgba(0, 255, 255, 0.1);
 }

@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   const loadHTML = (id, file) => {
-    console.log(`Carregando: ${file}`); // <- move pra cá
+    console.log(`Carregando: ${file}`);
     fetch(file)
       .then((response) => response.text())
       .then((data) => (document.getElementById(id).innerHTML = data))

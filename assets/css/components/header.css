@@ -1,0 +1,18 @@
+header {
+  background: linear-gradient(to bottom, #000000, #222222);
+  color: #ffffff;
+  padding: 0.625rem; /* equivale a 10px */
+  margin-top: 0.0625rem; /* equivale a 1px */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 0 0.625rem; /* equivale a 10px */
+  flex-wrap: wrap;
+  margin-top: 1.25rem; /* equivale a 20px */
+  padding: 1.25rem; /* equivale a 20px */
+}

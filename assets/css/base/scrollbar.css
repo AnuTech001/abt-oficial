@@ -1,0 +1,32 @@
+a.navegacao {
+  text-decoration: none;
+}
+
+.navegacao_rapida {
+  position: fixed;
+  bottom: 40%;
+  right: 0.625rem; /* equivale a 10px */
+  z-index: 1000;
+}
+
+.nav-rap {
+  border: 0.125rem solid white; /* equivale a 2px */
+  border-radius: 0.625rem; /* equivale a 10px */
+  opacity: 0.2;
+  transition: all 0.5s ease;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem; /* equivale a 8px */
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+  border: 0.125rem solid white; /* equivale a 2px */
+}
+
+::-webkit-scrollbar-thumb {
+  background: white;
+  border: 0.125rem solid white; /* equivale a 2px */
+  border-radius: 0.25rem; /* equivale a 4px */
+}

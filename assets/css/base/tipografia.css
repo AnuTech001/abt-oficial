@@ -1,0 +1,35 @@
+.estilo-link {
+  padding: 1.25rem 0; /* equivale a 20px */
+}
+
+.estilo-link a {
+  color: #00ffff;
+  border: 0.125rem solid white; /* equivale a 2px */
+  border-radius: 6.25rem; /* equivale a 100px */
+  padding: 1.25rem 0.625rem; /* equivale a 20px e 10px*/
+  transition: all 0.5s ease;
+}
+
+.estilo-texto {
+  font-family: "Orbitron", sans-serif;
+  text-align: center;
+  padding: 0 0.625rem; /* equivale a 10px */
+  margin: 0 0.3125rem;  /* equivale a 5px */
+}
+
+p {
+  font-size: 1rem; /* equivale a 16px */
+  color: #00ff00;
+}
+
+h1 {
+  font-size: 2rem; /* equivale a 32px */
+  color: #00ffff;
+}
+
+.texto-mobile {
+  display: block;
+  font-size: 0.875rem; /* equivale a 14px */
+  text-align: center;
+  color: #00ffff;
+}

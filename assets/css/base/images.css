@@ -1,0 +1,22 @@
+.eu_mesmo {
+  height: 200px;
+  margin-top: 1.25rem; /* equivale a 20px */
+  border: 0.125rem solid white; /* equivale a 2px */
+  border-radius: 100px;
+}
+
+.logo-acessibilidade,
+.logo-onu {
+  height: 100px;
+  margin-top: 1.25rem; /* equivale a 20px */
+  border-radius: 3.125rem; /* equivale a 50px */
+}
+
+.logo-acessibilidade {
+  background-color: white;
+}
+
+.logo {
+  margin-top: 1.25rem; /* equivale a 20px */
+  height: 150px;
+}

@@ -1,0 +1,13 @@
+.cards-universal,
+.card-manifesto,
+.card-content {
+  flex: 1 1 31.25rem; /* equivale a 500px */
+  padding: 1.25rem; /* equivale a 20px */
+  max-width: auto;
+  margin: 0 0.3125rem; /* equivale a 5px */
+  height: auto;
+  box-sizing: border-box;
+  border: 2px solid white;
+  border-radius: 6.25rem; /* equivale a 100px */
+  transition: border-radius 0.5s ease, border-color 0.5s ease;
+}
