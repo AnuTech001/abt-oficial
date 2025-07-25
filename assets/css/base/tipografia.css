@@ -10,16 +10,23 @@
   transition: all 0.5s ease;
 }
 
-.estilo-texto {
-  font-family: "Orbitron", sans-serif;
-  text-align: center;
+.estilo-texto p {
   padding: 0 0.625rem; /* equivale a 10px */
-  margin: 0 0.3125rem;  /* equivale a 5px */
+  margin: 0 0.3125rem; /* equivale a 5px */
 }
 
-p {
+p,
+pre {
   font-size: 1rem; /* equivale a 16px */
   color: #00ff00;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+
+pre {
+  font-size: 2rem;
+  color: #00ffff;
 }
 
 h1 {

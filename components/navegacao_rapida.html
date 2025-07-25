@@ -1,9 +1,57 @@
 <footer class="navegacao_rapida">
   <div class="nav-rap">
-    <a href="#header" aria-label="Voltar ao início da página">
-      <i class="material-icons nav" aria-hidden="true" title="Voltar ao início"
-        >home</i
+    <!-- Botão do menu -->
+    <button onclick="toggleMenu()" aria-label="Abrir opções">
+      <i class="material-icons nav" aria-hidden="true" title="Abrir opções"
+        >menu</i
       >
-    </a>
+    </button>
+    <!-- Menu de navegação -->
+    <div class="container" id="menu-opcoes">
+      <a href="#header" class="navegacao" aria-label="Voltar ao topo">
+        <i class="material-icons" aria-hidden="true" title="Topo">house</i>
+        <span class="texto-mobile">Topo</span>
+      </a>
+      <a href="#sites" class="navegacao" aria-label="Sites vinculados">
+        <i class="material-icons" aria-hidden="true" title="Sites">language</i>
+        <span class="texto-mobile">Sites</span>
+      </a>
+      <a href="#projetos" class="navegacao" aria-label="Meus projetos">
+        <i class="material-icons" aria-hidden="true" title="Projetos"
+          >design_services</i
+        >
+        <span class="texto-mobile">Projetos</span>
+      </a>
+      <a
+        href="#computacao_quantica"
+        class="navegacao"
+        aria-label="Computação quântica"
+      >
+        <i class="material-icons" aria-hidden="true" title="Computação Quântica"
+          >memory</i
+        >
+        <span class="texto-mobile">Quântica</span>
+      </a>
+      <a
+        href="#manifesto"
+        class="navegacao"
+        aria-label="Manifesto tecnológico-humanista"
+      >
+        <i class="material-icons" aria-hidden="true" title="Manifesto"
+          >lightbulb</i
+        >
+        <span class="texto-mobile">Manifesto</span>
+      </a>
+      <a
+        href="javascript:void(0);"
+        class="navegacao"
+        onclick="mostrarCaixaTamanho()"
+        aria-label="Mostrar tamanho da tela"
+        ><i class="material-icons" aria-hidden="true" title="Tamanho de tela"
+          >construction</i
+        >
+        <span class="texto-mobile">Área do Dev</span>
+      </a>
+    </div>
   </div>
 </footer>

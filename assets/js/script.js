@@ -8,6 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
   };
 
   loadHTML("header", "components/header.html");
+  loadHTML("span", "components/span.html");
   loadHTML("content", "components/content.html");
   loadHTML("navegacao_rapida", "components/navegacao_rapida.html");
   loadHTML("head_links", "components/includes/head_links.html");

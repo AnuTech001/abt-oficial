@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     .then((data) => {
       const linhas = document.getElementById("linhas");
       if (linhas) {
-        linhas.innerText = `Este projeto conta com incríveis ${data.total} linhas!`;
+        linhas.innerText = `Número de linhas nesse projeto:\n${data.total}`;
       } else {
         console.warn("Elemento com id 'linhas' não encontrado.");
       }

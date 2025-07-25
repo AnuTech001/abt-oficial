@@ -11,3 +11,31 @@ body {
   padding: 0;
   margin: 0;
 }
+
+#caixa-tela {
+  display: none;
+  background: linear-gradient(to bottom, #000000, #222222);
+  color: #00ffff;
+  border: 2px solid white;
+  border-radius: 1.25rem; /* 20px */
+  padding: 1.25rem; /* 20px */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+
+  width: 100%;
+  max-width: 37.5rem; /* 600px */
+  min-width: 17.5rem; /* 280px */
+  max-height: 16.25rem; /* 260px */
+  overflow-y: auto;
+}
+
+#caixa-tela pre {
+  margin-right: 0;
+}
+
+button {
+  font-family: "Orbitron", sans-serif;
+}

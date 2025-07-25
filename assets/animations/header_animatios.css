@@ -26,18 +26,14 @@
 
 .material-icons:hover {
   color: #00ffff;
-  margin: 0 2.5rem; /* equivale a 40px */
-  transform: scale(1.5);
 }
 
 .material-icons.nav:hover {
-  color: white;
-  margin: 0 0.625rem; /* equivale a 10px */
-  transform: none;
+  color: #00ffff;
 }
 
 .nav-rap:hover {
-  background-color: rgba(0, 255, 255, 0.5);
-  border: 0.125rem solid white; /* equivale a 2px */
-  opacity: 10;
+  background: linear-gradient(to bottom, #000000, #222222);
+  border: 0.125rem solid #00ffff; /* equivale a 2px */
+  border-radius: 3.125rem; /* equivale a 50px */
 }
