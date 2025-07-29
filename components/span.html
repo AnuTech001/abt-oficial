@@ -1,26 +1,38 @@
 <body>
-  <!-- Caixa oculta inicialmente -->
   <span id="caixa-tela">
     <button onclick="fecharCaixa()">
       <i
         class="material-icons"
         aria-hidden="true"
         title="Fechar Caixa"
-        style="color: red; vertical-align: middle"
+        style="
+          position: absolute;
+          top: 10px;
+          right: 10px;
+          background: transparent;
+          border: none;
+          cursor: pointer;
+          z-index: 10;
+          color: red;
+        "
         >close</i
       >
     </button>
-    <p>
-      Este local é destinado a exibir informações mais detalhadas sobre o telas,
-      ou outras informações que não são exibidas diretamente na tela principal.
-    </p>
-    <pre id="linhas" style="font-family: Orbitron"></pre>
-    <pre id="info-tela" style="font-family: Orbitron"></pre>
-    <p>
-      Nota do desenvolvedor: Eu só tinha um computador, um sonho e um desejo
-      insaciável pelo conhecimento. O site que você vê agora é fruto de café,
-      improviso e muita persistência. Se ele tá funcionando... agradeça à Deus e
-      ao CSS.
+    <img
+      src="assets/images/anuzita/ola.png"
+      alt="Mascote anime Anuzita com cabelo azul, maria-chiquinha e sorriso 
+    dizendo Hello"
+      class="anuzita"
+    />
+    <p id="info-tela">
+      Oiê! Eu sou a Anuzita, a mascote oficial do site Anu Birdo Teknologio 💻✨
+      Sou novata por aqui — cheguei na versão 1.10.7 — mas já estou cheia de
+      energia pra te ajudar! Embora eu seja uma mascote super estilosa (modéstia
+      à parte), meu verdadeiro papel é ser sua assistente digital: te guiar pelo
+      site, facilitar o acesso aos conteúdos e deixar sua experiência mais leve
+      e divertida. Quer descobrir mais sobre quem eu sou e o que o futuro
+      reserva pra mim? Corre lá na seção *Conheça a Anuzita*. Tem spoiler do que
+      vem por aí! 😄
     </p>
   </span>
 </body>

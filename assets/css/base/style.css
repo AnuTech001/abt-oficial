@@ -17,7 +17,6 @@ body {
   background: linear-gradient(to bottom, #000000, #222222);
   color: #00ffff;
   border: 2px solid white;
-  border-radius: 1.25rem; /* 20px */
   padding: 1.25rem; /* 20px */
   position: fixed;
   top: 50%;

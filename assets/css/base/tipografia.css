@@ -10,9 +10,9 @@
   transition: all 0.5s ease;
 }
 
-.estilo-texto p {
+.estilo-texto {
   padding: 0 0.625rem; /* equivale a 10px */
-  margin: 0 0.3125rem; /* equivale a 5px */
+  margin: 0.3125rem 0.3125rem; /* equivale a 5px */
 }
 
 p,

@@ -7,12 +7,10 @@ header {
   box-sizing: border-box;
 }
 
-.container {
+.container a i {
   display: flex;
-  justify-content: center;
-  align-items: stretch;
-  gap: 0 0.625rem; /* equivale a 10px */
-  flex-wrap: wrap;
-  margin-top: 1.25rem; /* equivale a 20px */
-  padding: 1.25rem; /* equivale a 20px */
+  flex-direction: row; /* coloca os itens em linha */
+  justify-content: center; /* centraliza os ícones */
+  align-items: center; /* alinha verticalmente */
+  gap: 1rem; /* espaço entre os ícones */
 }

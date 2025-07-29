@@ -8,19 +8,28 @@
     </button>
     <!-- Menu de navegação -->
     <div class="container" id="menu-opcoes">
-      <a href="#header" class="navegacao" aria-label="Voltar ao topo">
-        <i class="material-icons" aria-hidden="true" title="Topo">house</i>
-        <span class="texto-mobile">Topo</span>
+      <button
+        onclick="document.getElementById('musica').play()"
+        class="menu-opcoes"
+        aria-label="Tocar música"
+        title="Tocar música"
+      >
+        <i class="material-icons">🎵</i>
+      </button>
+      <a href="#header" class="navegacao" aria-label="Voltar ao início">
+        <i class="material-icons" aria-hidden="true" title="Voltar ao início"
+          >house</i
+        >
       </a>
       <a href="#sites" class="navegacao" aria-label="Sites vinculados">
-        <i class="material-icons" aria-hidden="true" title="Sites">language</i>
-        <span class="texto-mobile">Sites</span>
+        <i class="material-icons" aria-hidden="true" title="Sites vinculados"
+          >language</i
+        >
       </a>
       <a href="#projetos" class="navegacao" aria-label="Meus projetos">
-        <i class="material-icons" aria-hidden="true" title="Projetos"
+        <i class="material-icons" aria-hidden="true" title="Meus projetos"
           >design_services</i
         >
-        <span class="texto-mobile">Projetos</span>
       </a>
       <a
         href="#computacao_quantica"
@@ -30,27 +39,27 @@
         <i class="material-icons" aria-hidden="true" title="Computação Quântica"
           >memory</i
         >
-        <span class="texto-mobile">Quântica</span>
       </a>
-      <a
-        href="#manifesto"
-        class="navegacao"
-        aria-label="Manifesto tecnológico-humanista"
-      >
-        <i class="material-icons" aria-hidden="true" title="Manifesto"
+      <a href="#manifesto" class="navegacao" aria-label="Meu manifesto">
+        <i class="material-icons" aria-hidden="true" title="Meu manifesto"
           >lightbulb</i
         >
-        <span class="texto-mobile">Manifesto</span>
       </a>
-      <a
-        href="javascript:void(0);"
-        class="navegacao"
-        onclick="mostrarCaixaTamanho()"
-        aria-label="Mostrar tamanho da tela"
-        ><i class="material-icons" aria-hidden="true" title="Tamanho de tela"
+      <a href="#area-dev" class="navegacao" aria-label="Area Dev">
+        <i class="material-icons" aria-hidden="true" title="Area do Dev"
           >construction</i
         >
-        <span class="texto-mobile">Área do Dev</span>
+      </a>
+      <a
+        href="#anuzita"
+        class="navegacao anuzita"
+        aria-label="Professora Anuzita Explica"
+      >
+        <img
+          src="assets/images/anuzita/professora-icone.png"
+          alt=""
+          class="icone-anuzita-e"
+        />
       </a>
     </div>
   </div>

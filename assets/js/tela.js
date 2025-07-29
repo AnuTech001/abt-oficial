@@ -2,8 +2,9 @@ function mostrarCaixaTamanho() {
   const largura = window.innerWidth;
   const altura = window.innerHeight;
   document.getElementById(
-    "info-tela"
-  ).textContent = `Dimesões de tela:\n${largura}px x ${altura}px`;
+    "dimesoes-tela"
+  ).textContent = `Essas são as suas dimensões de tela: ${largura}px x 
+  ${altura}px. Legal né?! 🤔🤩`;
   document.getElementById("caixa-tela").style.display = "inline-block";
 }
 

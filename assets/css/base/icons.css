@@ -24,4 +24,14 @@
 .material-icons.projetos {
   color: white;
   font-size: 3.125rem; /* equivale a 50px */
+  margin-top: 1.25rem; /* equivale a 20px */
+}
+
+.icone-anuzita {
+  height: 50px;
+  margin-top: 1.25rem; /* equivale a 20px */
+}
+
+.icone-anuzita-e {
+  height: 25px;
 }

@@ -22,7 +22,7 @@ a.navegacao {
   transition: max-height 0.3s ease-out;
   overflow: hidden;
   max-height: auto;
-  padding-top: 1rem; /* equivale a 16px */
+  padding: 1rem; /* equivale a 16px */
 }
 
 button {

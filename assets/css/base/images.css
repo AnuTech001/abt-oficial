@@ -20,3 +20,14 @@
   margin-top: 1.25rem; /* equivale a 20px */
   height: 150px;
 }
+
+.anuzita-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem; /* espaço entre imagem e texto */
+  margin-top: 1.25rem;
+}
+
+.anuzita {
+  height: 140px;
+}
