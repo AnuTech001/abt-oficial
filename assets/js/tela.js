@@ -5,7 +5,7 @@ function mostrarCaixaTamanho() {
     "dimesoes-tela"
   ).textContent = `Essas são as suas dimensões de tela: ${largura}px x 
   ${altura}px. Legal né?! 🤔🤩`;
-  document.getElementById("caixa-tela").style.display = "inline-block";
+  /* document.getElementById("caixa-tela").style.display = "inline-block"; */
 }
 
 function fecharCaixa() {

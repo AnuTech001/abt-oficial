@@ -10,7 +10,7 @@ const loadHTML = (id, file) => {
 // Aguarda o carregamento de todos
 document.addEventListener("DOMContentLoaded", function () {
   Promise.all([
-    loadHTML("span", "components/span.html"),
+    /* loadHTML("span", "components/span.html"), */
     loadHTML("header", "components/header.html"),
     loadHTML("anuzita", "components/anuzita.html"),
     loadHTML("content", "components/content.html"),
