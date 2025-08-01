@@ -38,3 +38,22 @@ body {
 button {
   font-family: "Orbitron", sans-serif;
 }
+
+#linhas {
+  color: #00ff00;
+}
+
+.anuzita-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.anuzita-container .anuzita {
+  margin-bottom: 10px;
+}
+
+.anuzita-container p {
+  color: red;
+  position: relative;
+}
