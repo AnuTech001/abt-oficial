@@ -19,3 +19,14 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
 });
+
+document.getElementById("audio").addEventListener("click", () => {
+  const audio = document.getElementById("audioDescricao");
+  document.getElementById("tocar").onclick = () => audio.play();
+  document.getElementById("pausar").onclick = () => audio.pause();
+  document.getElementById("parar").onclick = () => {
+    audio.pause();
+    audio.currentTime = 0;
+  };
+  if (audio) audio.play();
+});

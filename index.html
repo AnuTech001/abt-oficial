@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
+    <meta name="theme-color" content="#aa2b1d" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- ADICIONAR ISSO -->
     <meta
       property="og:image"
       content="https://anutech001.github.io/abt-oficial/assets/images/logo.png"
@@ -41,6 +41,10 @@
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
     />
     <!-- Favicon base -->
     <link
@@ -145,12 +149,14 @@
     </header>
     <main>
       <section aria-labelledby="boas-vindas">
-        <img
-          src="assets/images/eu_mesmo.jpg"
-          alt="Rapaz de óculos, pele levemente bronzeada e cabelo escuro. 
+        <div class="container-img">
+          <img
+            src="assets/images/eu_mesmo.jpg"
+            alt="Rapaz de óculos, pele levemente bronzeada e cabelo escuro. 
           Veste camisa marrom clara por baixo de uma blusa preta."
-          class="imagens"
-        />
+            class="imagens"
+          />
+        </div>
         <h2 id="boas-vindas">Sejam todos bem-vindos ao meu site!</h2>
         <p>
           Meu nome é Luis Eduardo, sou um jovem entusiasta da informática e
@@ -165,13 +171,15 @@
       </section>
       <hr />
       <section aria-labelledby="acessibilidade">
-        <img
-          src="assets/images/acessibilidade.png"
-          alt="Símbolo Universal de Acessibilidade: figura humana estilizada com 
+        <div class="container-img">
+          <img
+            src="assets/images/acessibilidade.png"
+            alt="Símbolo Universal de Acessibilidade: figura humana estilizada com 
         braços abertos dentro de um círculo."
-          class="imagens"
-          style="background-color: white"
-        />
+            class="imagens"
+            style="background-color: white"
+          />
+        </div>
         <h2 id="acessibilidade">Acessibilidade Digital</h2>
         <p>
           A partir da Versão 1.8.5 - Acessibilidade (18/07/2025), o site recebeu
@@ -192,7 +200,7 @@
           >
           e a <strong>Lei n° 13.146</strong>
         </p>
-        <div class="container">
+        <div class="container-link">
           <a
             href="https://www.unicef.org/brazil/convencao-sobre-os-direitos-das-pessoas-com-deficiencia"
             >ONU Brasil</a
@@ -200,17 +208,54 @@
             href="https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm"
             >Portal do Planalto</a
           >
+          <div class="botao">
+            <button id="audio" aria-label="audiodescrição">
+              Audiodescrição
+            </button>
+            <div class="acessibilidade-audio">
+              <button
+                id="parar"
+                class="btn-stop"
+                aria-label="Botão com ícone vermelho e sombra vermelha. 
+                Ao passar o mouse ou tocar, gira 360 graus e muda para branco."
+              >
+                <span class="material-icons-outlined"> stop </span>
+              </button>
+              <button
+                id="pausar"
+                class="btn-pause"
+                aria-label="Botão com ícone ciano e sombra ciana. Ao passar o 
+                mouse ou tocar, gira 360 graus e muda para branco."
+              >
+                <span class="material-icons-outlined"> pause </span>
+              </button>
+              <button
+                id="tocar"
+                class="btn-play"
+                aria-label="Botão com ícone verde neon e sombra verde neon. 
+              Ao passar o mouse ou tocar, gira 360 graus e muda para branco."
+              >
+                <span class="material-icons-outlined"> play_arrow </span>
+              </button>
+              <audio
+                id="audioDescricao"
+                src="assets/audio/audiodescrição.mp3"
+              ></audio>
+            </div>
+          </div>
         </div>
       </section>
       <hr />
       <section aria-labelledby="sites">
-        <img
-          src="assets/images/ola.png"
-          alt="Mascote anime Anuzita com cabelo azul, maria-chiquinha e sorriso 
+        <div class="container-img">
+          <img
+            src="assets/images/ola.png"
+            alt="Mascote anime Anuzita com cabelo azul, maria-chiquinha e sorriso 
           dizendo Hello"
-          class="imagens"
-          style="border: none; border-radius: 0"
-        />
+            class="imagens"
+            style="border: none; border-radius: 0"
+          />
+        </div>
         <h2 id="sites">Explore meus sites!</h2>
         <p>
           Oiê, sou eu de novo, a sua amiga Anuzita, kkkk. Provavelmete você já
@@ -227,42 +272,45 @@
         <p>Aqui estão os <strong>filhotes</strong> do site principal, kkkkk:</p>
         <aside>
           <nav aria-label="sites">
-            <ul>
-              <li>
-                <a
-                  href="https://anutech001.github.io/relogio/"
-                  class="sites-link"
-                  >Relógio <span>O primeiro de todos, kkkk;</span></a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://anutech001.github.io/relogio/app-jogo-da-velha/"
-                  class="sites-link"
-                  >Jogo da Velha
-                  <span>Um site pra se diverdir com amigos;</span></a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://anutech001.github.io/minha-rotina/"
-                  class="sites-link"
-                  >Minha Rotina
-                  <span
-                    >Um jeito peculiar de organizar a rotina ao invés de usar um
-                    caderno, kkkk;</span
-                  ></a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://anutech001.github.io/anutech001.github.io-laboratorio_anu/"
-                  class="sites-link"
-                  >Laboratório do AnuTech
-                  <span>Aqui é onde nasce as inveções do dev.</span></a
-                >
-              </li>
-            </ul>
+            <div class="container-projetos">
+              <div class="projetos">
+                <p>
+                  <a
+                    href="https://anutech001.github.io/relogio/"
+                    class="sites-link"
+                    >Relógio</a
+                  >
+                </p>
+                <p>
+                  <a
+                    href="https://anutech001.github.io/relogio/app-jogo-da-velha/"
+                    class="sites-link"
+                    >Jogo da Velha
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href="https://anutech001.github.io/minha-rotina/"
+                    class="sites-link"
+                    >Minha Rotina</a
+                  >
+                </p>
+                <p>
+                  <a
+                    href="https://anutech001.github.io/anutech001.github.io-laboratorio_anu/"
+                    class="sites-link"
+                    >Laboratório do AnuTech
+                  </a>
+                </p>
+                <p>
+                  <a
+                    href="https://anutech001.github.io/pixel-art/"
+                    class="sites-link"
+                    >Pixel Art - Colorindo com Pixels</a
+                  >
+                </p>
+              </div>
+            </div>
           </nav>
         </aside>
       </section>
@@ -308,15 +356,16 @@
     </main>
     <footer>
       <div class="versao">
-        <h2>Versão 2.0.0</h2>
+        <h2>Versão 2.1.0</h2>
         <p>
-          Chegamos na versão 2.0.0 do site! E com ela traz algumas novidades que
+          Chegamos na versão 2.1.0 do site! E com ela traz algumas novidades que
           são:
         </p>
         <ul class="notas-atualizacao">
-          <li>Designer retrabalhado, com nova fonte e cores;</li>
-          <li>Site mais veloz ao carregar;</li>
-          <li>Conteúdo fracionado em sites paralelos.</li>
+          <li>Melhoria na acessibilidade;</li>
+          <li>Área dos <strong>Filhotes</strong> retrabalhada;</li>
+          <li>Recurso experimental adicionado;</li>
+          <li><i>Layout</i> melhorado em telas menores.</li>
         </ul>
       </div>
       <div class="container">
