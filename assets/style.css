@@ -52,7 +52,7 @@ strong {
 }
 
 p {
-  margin: var(--espaco-ext);
+  margin: var(--espaco-int);
   font-size: var(--tamanho-paragrafo);
   color: white;
 }
