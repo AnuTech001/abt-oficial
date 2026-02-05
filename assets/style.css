@@ -2,6 +2,7 @@
 
 :root {
   --tamanho-img: clamp(100px, 20vw, 200px);
+  --anuzita-tamanho: clamp(75px, 10vw, 145px);
   --espaco-int: clamp(10px, 2vw, 20px);
   --espaco-ext: clamp(15px, 3vw, 30px);
   --tamanho-titulo: clamp(2rem, 3vw, 3rem);
@@ -28,18 +29,6 @@ body {
   background: black;
 }
 
-button {
-  font-size: var(--tamanho-paragrafo);
-  margin: var(--espaco-ext);
-  padding: var(--espaco-int);
-  border: 2px solid white;
-  border-radius: var(--borda-angulo);
-  background: transparent;
-  color: var(--subtitulo-cor);
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
 /* Tipográfia */
 
 a {
@@ -52,7 +41,7 @@ strong {
 }
 
 p {
-  margin: var(--espaco-ext);
+  margin: var(--espaco-int);
   font-size: var(--tamanho-paragrafo);
   color: white;
 }
@@ -74,37 +63,6 @@ li {
   margin: var(--espaco-ext);
   font-size: var(--tamanho-paragrafo);
   list-style-type: square;
-}
-
-.material-icons-outlined {
-  font-size: var(--tamanho-paragrafo);
-  transition: all 0.5s ease;
-}
-
-.btn-stop, .btn-pause, .btn-play {
-  border: none;
-}
-
-.btn-stop .material-icons-outlined {
-  color: red;
-  box-shadow: var(--sombra);
-}
-
-.btn-pause .material-icons-outlined {
-  color: #00ffff;
-  box-shadow: var(--sombra);
-}
-
-.btn-play .material-icons-outlined {
-  color: #00ff00;
-  box-shadow: var(--sombra);
-}
-
-.material-icons-outlined:hover {
-  color: white;
-  border: white 2px solid;
-  transform: rotate(360deg);
-  transition: all 0.5s ease;
 }
 
 .social-icon.whatsapp,
@@ -272,11 +230,101 @@ header {
   flex-wrap: wrap;
 }
 
+/* Anuzita Fala */
+
+.anuzita {
+  width: var(--anuzita-tamanho);
+  height: auto;
+  margin-top: var(--espaco-ext);
+}
+
+.acessibilidade {
+  display: flex;
+  justify-content: center;
+}
+
+.acessibilidade .material-icons-outlined {
+  font-size: clamp(25px, 9vw, 35px);
+}
+
 .acessibilidade-audio {
   display: flex;
   justify-content: center;
   flex-direction: row;
   gap: var(--espaco-gap);
+}
+
+.material-icons-outlined {
+  transition: all 0.5s ease;
+}
+
+.material-icons-outlined:hover {
+  color: white;
+  border: white 2px solid;
+  transform: rotate(360deg);
+  transition: all 0.5s ease;
+}
+
+.btn-stop,
+.btn-pause,
+.btn-play {
+  border: none;
+}
+
+.btn-stop .material-icons-outlined {
+  color: red;
+  box-shadow: var(--sombra);
+}
+
+.btn-pause .material-icons-outlined {
+  color: #00ffff;
+  box-shadow: var(--sombra);
+}
+
+.btn-play .material-icons-outlined {
+  color: #00ff00;
+  box-shadow: var(--sombra);
+}
+
+.btn-stop .material-icons-outlined {
+  color: red;
+  box-shadow: var(--sombra);
+}
+
+.btn-pause .material-icons-outlined {
+  color: #00ffff;
+  box-shadow: var(--sombra);
+}
+
+.btn-play .material-icons-outlined {
+  color: #00ff00;
+  box-shadow: var(--sombra);
+}
+
+button {
+  font-size: var(--tamanho-paragrafo);
+  margin: var(--espaco-ext);
+  padding: var(--espaco-int);
+  border: 2px solid white;
+  border-radius: var(--borda-angulo);
+  background: transparent;
+  color: var(--subtitulo-cor);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  color: white;
+  border: yellow 2px solid;
+  background-color: black;
+  transition: all 0.3s ease;
+}
+
+.btn-stop:hover,
+.btn-pause:hover,
+.btn-play:hover {
+  border: none;
+  background: transparent;
 }
 
 .botao {
@@ -287,12 +335,40 @@ header {
   border: 2px solid white;
   border-radius: var(--borda-angulo);
   margin: var(--espaco-ext);
-  width: clamp(250px, 170vw, 350x);
+  width: clamp(250px, 100vw, 400px);
 }
 
-@media (min-width: 320px) and (max-width: 441px) {
-  li {
-    margin: 25px;
+/* Layouts escpecias */
+
+@media (max-width: 388px) {
+  body {
+    font-size: 1rem;
+  }
+  ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 655px) {
+  body {
+    line-height: 1.6;
+    margin: 0;
+  }
+  .rodape {
+    flex-direction: column;
+  }
+  .acessibilidade .material-icons-outlined {
+    font-size: 2rem;
+  }
+  .container {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 441px) {
+  ul {
+    margin: 10px;
   }
   .container {
     flex-direction: column;
@@ -300,5 +376,6 @@ header {
 
   .projetos {
     flex-direction: column;
+    justify-content: left;
   }
 }
